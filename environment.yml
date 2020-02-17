@@ -2,6 +2,8 @@ name: libsemigroups_cppyy
 channels:
   - conda-forge
 dependencies:
+  - networkx
+  - matplotlib
   - libsemigroups
   - pip
   - pip:
